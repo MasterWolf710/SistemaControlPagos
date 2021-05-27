@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a3ef2b4726.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/clientes.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/reportes.css">
+    <link rel="stylesheet" href="css/panel.css">
+    <title>Control</title>
+</head>
+<body>
+<div class="contenedor">   
+  <aside class="aside">
+      <ul class="lista-menu">
+          <li class="">
+            <a href="#tab1" id="panelabrir">
+                <span class="fas fa-chalkboard-teacher"></span>
+                <span class="letras">Panel</span>
+            </a>
+          </li>
+
+          <li class="">
+            <a href="#tab2">
+                <span class="fas fa-user-plus"></span>
+                <span class="letras">Altas</span>
+            </a>
+          </li>
+
+          <li class="">
+            <a href="#tab3" id="servicioslink">
+                <span class="fas fa-toolbox"></span>
+                <span class="letras">Servicios</span>
+            </a>
+          </li>
+
+            
+          <li class="">
+            <a href="#tab5" id="contactos">
+                <span class="fas fa-address-book"></span>
+                <span class="letras">Contactos</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="#tab6" id="reportesdeeys">
+                <span class="fas fa-book"></span>
+                <span class="letras">Reportes</span>
+            </a>
+          </li>
+      </ul>
+  </aside>
+
+  <section class="section">
+
+    <article class="panel" id="tab1">
+      <div class="titulo">
+        <h1>Servicios Activos</h1>
+      </div>
+      <div class="formpanel">
+
+      </div>
+    </article>
+
+
+
+    <article class="altas" id="tab2">
+      <div class="titulo">
+        <h1>Datos del Cliente</h1>
+      </div>
+      <div class="form">
+        <form action="">
+          <label for="Empresa" class="primero a">Empresa</label>
+          <input type="text" name="Empresa" id="empresa">
+
+          <label for="representante" class="a">Representante</label>
+          <input type="text" name="representante" id="representanten">
+
+          <label for="numero" class="a">Telefono</label>
+          <input type="number" name="numero" id="number">
+
+          <label for="correo" class="a">Correo</label>
+          <input type="email" name="correo" id="correo">
+
+          <div class="boton">
+          <input type="submit" class="Aceptar" id="AceptarA" value="Guardar">
+          </div>
+        </form>
+      </div>
+    </article>
+
+<!-------------------------------->
+    <article class="servicio" id="tab3">
+      <div class="forms">
+        <div class="registrodeservicio" >
+            <div class="titulo">
+              <h1>Registrar Servicio</h1>
+            </div>
+
+            <form action="" class="formu">
+              <div class="fecha">
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha">
+              </div>
+              <div class="representante">
+                <label for="representante">Representante:</label>
+                <select name="representante" class="representante" id="representante">
+                  <option value="Seleccione una Registro...">Seleccione una Registro...</option>
+                </select>
+              </div>
+              <div class="servicio"> 
+                <label for="servicio">Servicio a realizar:</label>
+                <input type="text" name="servicio" id="servicio">
+              </div>
+
+              <div class="cantidaddepagos">
+                <div class="cantidaddepagosarealizar">
+                  <label for="pagos">Pagos a realizar</label>
+                  <input type="number" name="pagos" id="pagos">
+                </div>
+              </div>
+              <div class="consultadepagoscontenedor">
+              </div>
+              <div class="boto">
+                <button type="submit" class="registrarpagos" id="registrarpagos">Registrar Pagos</button>
+              </div>
+            </form>
+        </div>
+
+
+        <div class="descripciondepago">
+            <div class="derecho">
+              <h2>Cliente</h2>
+            </div>
+
+            <div class="descripcionesdepago">
+              <h2>Descripcion del servicio:</h2>
+              <h2  style="margin-top: 5px;" id="descripciomservicios"></h2>
+            </div>
+
+            <div class="pagorestante">
+              <div class="pagorestantetexto">
+                <h2>Total</h2>
+              </div>
+
+              <div class="pagorestantenumero">
+                <h2>$0</h2>
+              </div>
+            </div>
+            <div class="botonpago">
+              <button type="submit" class="guardarpagos">Guardar Pago</button>
+            </div>
+        </div>
+      </div>
+    </article>
+
+<!-------------------------------->
+    <article class="contactos" id="tab5">
+      <div class="nav">
+        <div class="navtext">
+          <h2>Contactos</h2>
+        </div>
+        <div class="navbusqueda">
+          <span class="fas fa-search"></span>
+          <input type="text" id="txtBusquedaContactos" placeholder="Cliente">
+        </div>
+      </div>
+
+      <div class="form2">
+        
+      </div>
+    </article>
+
+    <article class="reporte" id="tab6">
+      <div class="contenedorreporte">
+          <div class="contenedorentradas">
+            <div class="tituloentrada">
+              <h1>ENTRADAS</h1>
+            </div>
+            <div class="datosdeentrada">
+              <div class="botonagregar">
+
+              </div>
+              <div class="datosdepagos">
+                <table>
+                  <thead>
+                    <tr>
+                      <td>Fecha</td>
+                      <td>Concepto</td>
+                      <td>Monto</td>
+                    </tr>
+                  </thead>
+                  <tbody id="bodyentradas">
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="montodeentrada">
+                <div class="totalentrada">
+                  <h2>Total:</h2>
+                </div>
+                <div class="pesosentrada">
+                  <h2 class="totaldepagoentrada">0</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedorsalidas">
+            <div class="titulosalida">
+              <h1>SALIDAS</h1>
+            </div>
+            <div class="datosdesalida">
+              <div class="botonagregar">
+                <span class="fas fa-plus-circle" id="botonsalidas"></span>
+              </div>
+              <div class="datosdepagos">
+                <table>
+                  <thead>
+                    <tr>
+                      <td>Fecha</td>
+                      <td>Concepto</td>
+                      <td>Monto</td>
+                    </tr>
+                  </thead>
+                  <tbody id="bodysalidas">
+
+                  </tbody>
+                </table>
+            </div>
+            <div class="montodeentrada">
+              <div class="totalentrada">
+                <h2>Total:</h2>
+              </div>
+              <div class="pesosentrada">
+                <h2 class="totalpagosalida">0</h2>
+              </div>
+            </div>
+          </div>
+      </div>
+    </article>
+
+  </section>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="js/query.js"></script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+article.servicio{
+    width: 100%;
+}
+
+div.forms{
+    width: 100%;
+}
+
+div.registrodeservicio{
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    background-color: rgba(33, 46, 61, 0.897);
+}
+div.descripciondepago{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #3251ffe8 ;
+}
+
+form.formu{
+    width: 80%;
+    margin: 20px auto;
+}
+div.fecha label{
+    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+div.fecha input[type="date"]{
+    width: 50%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 3px solid #3251ffe8;
+    border-radius: 3px;
+}
+div.representante label{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+div.representante select{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 3px solid #3251ffe8;
+    border-radius: 3px;
+}
+
+div.servicio label{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    
+}
+div.servicio input[type="text"]{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 3px solid #3251ffe8;
+    border-radius: 3px;
+}
+div.pagos{
+    width: 100%;
+    display: flex;
+}
+/*****************************/
+div.cantidaddepagos{
+    width: 100%;
+    display: flex;
+}
+div.cantidaddepagosarealizar{
+    width: 50%;
+}
+div.cantidaddepagos label{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+
+div.cantidaddepagos input[type="number"]{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 3px solid #3251ffe8;
+    border-radius: 3px;
+}
+
+
+div.botonpagos{
+    width: 50%;
+    text-align: center;
+}
+div.botonpagos button{
+    width: 80%;
+    font-size: 18px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+/*****************************/
+div.consultadepagoscontenedor{
+    width: 100%;
+    height: 180px;
+    margin: 20px auto;
+    overflow: auto;
+   
+}
+
+div.consultadepagos{
+    width: 100%;
+    display: flex;
+}
+
+div.fechadepago{
+    width: 50%;
+}
+
+div.fechadepago label{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+
+div.fechadepago input[type="date"]{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 3px solid #3251ffe8;
+    border-radius: 3px;
+}
+
+div.montodepago{
+    width: 50%;
+}
+
+div.montodepago label{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+div.montodepago input[type="number"]{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 25px;
+    border-style: none;
+    border-bottom: 3px solid #3251ffe8;
+    border-radius: 3px;
+}
+
+/****************************/
+div.boto{
+    margin: 20px auto;
+    width: 100%;
+    float: left;
+}
+div.boto button{
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+div.boto button:hover{
+    background-color: #2e7d32;
+
+}
+
+div.descripcionesdepago{
+    width: 90%;
+    margin: 12px auto;
+    height: 180px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+div.derecho h2{
+    color: white;
+}
+
+
+
+div.pagorestante{
+    width: 90%;
+    display: flex;
+    margin: 5px auto;
+    color: white;
+}
+div.pagorestantetexto{
+    width: 60%;
+}
+div.pagorestantenumero {
+    width: 30%;
+    text-align: right;
+}
+
+div.botonpago{
+    width: 80%;
+    margin: 0 auto;
+}
+div.botonpago button[type="submit"]{
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+div.botonpago button[type="submit"]:hover{
+    background-color: #2e7d32;
+}
+
+.elimin{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+@media screen and (min-width: 700px){
+    div.forms{ 
+        width: 100%;
+        display: flex;    
+    }
+    div.descripciondepago{
+        display: block;
+        width: 34%;
+        height: 400px;
+        background-color: #3251ffe8 ;
+        margin: 50px auto;
+    }
+
+    div.registrodeservicio{
+        width: 60%;
+        height: 550px;
+        background-color: rgba(33, 46, 61, 0.897);
+    }
+    
+}

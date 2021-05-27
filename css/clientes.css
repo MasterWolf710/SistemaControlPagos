@@ -1,0 +1,160 @@
+.section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.titulo{
+    width: 90%;
+    margin: 0 auto;
+    background-color:#3251ff ;
+    text-align: center;
+    border-radius: 10px;
+}
+.titulo h1{
+    color: white;
+    font-size: 40px;
+}
+.altas{
+    background-color:rgba(33, 46, 61, 0.897);
+    width: 60%;
+   /* height: 420px;*/
+    margin: 30px auto;
+    border-radius: 20px;
+    
+}
+
+.form{
+    width: 70%;
+    margin: auto;
+}
+.a {
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.primero{
+    padding-top: 20px;
+}
+
+
+.altas form input[type="text"],.altas input[type="email"]{
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border-style: none;
+    border-bottom: 2px solid #0C81E4;
+    font-family: 'Roboto', sans-serif;
+}
+#number{
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border-style: none;
+    border-bottom: 2px solid #0C81E4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton{
+    width: 70%;
+    margin: 40px auto;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.Aceptar{
+    background-color: #2D82D8;
+    border-color: #0C81E4;
+}
+
+/*//////////////////////////QUERY//////////////////////////////////////*/
+
+@media screen and (max-width: 980px){
+    
+}
+@media screen and (max-width: 930px){
+    
+}
+@media screen and (max-width: 450PX){
+    .altas{
+        background-color:rgba(33, 46, 61, 0.897);
+        width: 90%;
+       /* height: 420px;*/
+        margin: 30px auto;
+        border-radius: 20px;
+        
+    }
+
+    .form{
+        width: 85%;
+        margin: auto;
+    }
+
+    .section{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .titulo h1{
+        color: white;
+        font-size: 25px;
+    }
+
+    input[type="submit"]{
+        margin-top: 20px;
+        width: 100%;
+        height: 40px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .altas form input[type="text"],.altas input[type="email"]{
+        margin-top: 10px;
+        background-color: transparent;
+        color: white;
+        width: 100%;
+        font-size: 18px;
+        border-style: none;
+        border-bottom: 2px solid #0C81E4;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #number{
+        margin-top: 10px;
+        background-color: transparent;
+        color: white;
+        width: 100%;
+        font-size: 18px;
+        border-style: none;
+        border-bottom: 2px solid #0C81E4;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .altas{
+        background-color:rgba(33, 46, 61, 0.897);
+        width: 80%;
+       /* height: 420px;*/
+        margin: 30px auto;
+        border-radius: 20px;
+        
+    }
+}

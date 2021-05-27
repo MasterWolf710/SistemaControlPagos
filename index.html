@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="contenedor">
+       
+    <div class="login">
+        <div class="contenedoruno">
+            <h1>Bienvenido</h1>
+            <img src="img/logo.svg">
+        </div>
+        <div class="contenedordos">
+            <h1>Inicia Sesion</h1>
+            <form name="formu" method="POST"  id="formu">
+                <div class="contenedorform">
+
+                <label for="usuario" class="user">Usuario</label>
+                <input type="text" name="usuario" id="Usuario" class="text">
+
+                <label for="" class="pass">Contraseña</label>
+                <input type="password" name="password" class="pasw" id="clave">
+                
+                <button type="submit" class="boton" id="boton">Iniciar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+article.reporte{
+    width: 100%;
+}
+
+div.contenedorreporte{
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.contenedorreporte div.contenedorentradas{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-color:rgba(33, 46, 61, 0.897);
+}
+
+div.contenedorreporte div.contenedorentradas div.tituloentrada{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    background-color: #304ffe;
+    text-align: center;
+    border-radius: 10px;
+}
+div.datosdeentrada{
+    width: 100%;
+    height: 90%;
+    color: white;
+}
+
+div.botonagregar{
+    width: 100%;
+    height: 15%;
+}
+div.datosdepagos{
+    width: 100%;
+    height: 65%;
+    overflow: auto;
+}
+
+div.datosdepagos table{
+    width: 100%;
+    
+}
+div.montodeentrada{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+div.totalentrada, div.pesosentrada{
+    margin-right: 30px;
+
+}
+
+
+/*/////////////////SALIDAS///////////////////////////////////*/
+
+div.contenedorreporte div.contenedorsalidas{
+    width: 100%;
+    height: 250px;
+    margin: 20px auto;
+    background-color:rgba(33, 46, 61, 0.897);
+}
+
+div.contenedorreporte div.contenedorsalidas div.titulosalida{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    background-color: #304ffe;
+    text-align: center;
+    border-radius: 10px;
+}
+div.datosdesalida{
+    width: 100%;
+    height: 90%;
+    color: white;
+    overflow: auto;
+}
+div.botonagregar span{
+    font-size: 28px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+/*//////////DISEÑO TABLA/////////////////////////////*/
+
+
+/*/////////////QUERYS//////////////////*/
+@media screen and (min-width:700px){
+    div.contenedorreporte{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    div.contenedorreporte div.contenedorentradas{
+        width: 46%;
+        height: 350px;
+        margin: 0 auto;
+        font-size: 20px;
+        background-color:rgba(33, 46, 61, 0.897);
+    }
+
+    div.contenedorreporte div.contenedorsalidas{
+        width: 46%;
+        height: 350px;
+        margin: 0 auto;
+        font-size: 20px;
+        background-color:rgba(33, 46, 61, 0.897);
+    }
+   
+}
